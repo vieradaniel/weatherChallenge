@@ -18,15 +18,15 @@ function App() {
 
 
   if (isloading) {
-    return <Loading/>
+    return <Loading/>;
   }
 
 
   return (
     <main>
 
-      <CityPicker handleChange={handleChangeCity} />
-
+      <CityPicker handleChange={handleChangeCity} value={selectedCityId} />
+      <hr />
       {
         (cityWeather) ? <ShowWeather weather={cityWeather} /> : <ErrorMessage/>
       }
