@@ -1,0 +1,14 @@
+[
+    {
+        "id": "mdq",
+        "name": "Mar Del Plata",
+        "lat": -38.0175666,
+        "lon": -57.6005341
+    },
+    {
+        "id": "cordoba",
+        "name": "Cordoba",
+        "lat": -31.399084,
+        "lon": -63.0078319
+    }
+]

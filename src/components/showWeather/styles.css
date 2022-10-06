@@ -1,0 +1,45 @@
+#showWeather {
+    min-width: 200px;
+    border: 0.2em solid black;
+    padding: 0.5em;
+    background-color: rgb(253, 233, 115);
+
+}
+
+#showWeather p {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#showWeather ul {
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+    gap: 1em;
+}
+
+
+#showWeather ul li {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+
+
+#showWeather ul li span {
+    margin: 0.1em 0em;
+}
+
+#showWeather #date {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#showWeather #min {
+    color: blue;
+}
+
+#showWeather #max {
+    color: red;
+}
