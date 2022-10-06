@@ -31,7 +31,7 @@ export default function useWeatherByCity(cityId:string) {
              setCityWeather(weather);
         })
         .catch(console.error)
-        .finally(()=> setIsLoading(false))
+        .finally(()=> setIsLoading(false));
     }, [selectedCity]);
 
 
