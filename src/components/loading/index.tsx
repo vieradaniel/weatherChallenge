@@ -1,5 +1,9 @@
+import "./styles.css";
+
 export default function () {
   return (
-    <p>Loading...</p>
+    <div id="loading">
+      <p>Loading...</p>
+    </div>
   )
 }
