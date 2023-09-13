@@ -1,3 +1,3 @@
-export default function() {
-    return <div>Ha ocurrido un error!</div>;
+export default function Error() {
+	return <div>Ha ocurrido un error!</div>;
 }
